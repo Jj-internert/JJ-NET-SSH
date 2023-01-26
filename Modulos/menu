@@ -495,8 +495,8 @@ case "$x" in
    menub
    exit;
    ;;
-   v)
-   bash <(curl -s -L https://raw.githubusercontent.com/TelksBr/v2ray/master/install.sh)
+   p)
+   painel
    ;;
    *)
    echo -e "\n\033[1;31mOpcao invalida !\033[0m"
