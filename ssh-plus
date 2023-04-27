@@ -1,7 +1,7 @@
 #!/bin/bash
 #--------------------------
 # REYSSH
-# CANAL TELEGRAM: @REYSSH
+# CANAL TELEGRAM: @JHONA70
 #--------------------------
 clear
 apt-get install lolcat -y &>/dev/null
