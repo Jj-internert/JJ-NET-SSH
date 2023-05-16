@@ -1,9 +1,9 @@
 #!/bin/bash
 #====================================================
-#	SCRIPT: LIMITER SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	CRAZY_VPN
-#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
-#	CANAL TELEGRAM:	http://t.me/sshplus
+#	SCRIPT: LIMITER jjinternet MANAGER
+#	DESENVOLVIDO POR:	jjinternet
+#	CONTATO TELEGRAM:	http://t.me/jjinternet
+#	CANAL TELEGRAM:	http://t.me/jjinternet
 #====================================================
 clear
 system=$(cat /etc/issue.net)
