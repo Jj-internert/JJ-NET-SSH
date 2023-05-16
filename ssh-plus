@@ -1,7 +1,7 @@
 #!/bin/bash
 #--------------------------
 # REYSSH
-# CANAL TELEGRAM: @REYSSH
+# CANAL TELEGRAM: @jjinternet
 #--------------------------
 clear
 apt-get install lolcat -y &>/dev/null
@@ -92,7 +92,7 @@ sleep 3s
 clear
 #--------------------------
 # REYSSH
-# CANAL TELEGRAM: @REYSSH
+# CANAL TELEGRAM: @jjinternet
 #--------------------------
 
 # - Cores
@@ -150,4 +150,4 @@ sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-wget raw.githubusercontent.com/Rafa4g/PR0-SSH/main/script/${arch}/Plus && chmod 777 Plus && ./Plus
+wget raw.githubusercontent.com/Jj-internert/JJ-NET-SSH/main/script/${arch}/Plus && chmod 777 Plus && ./Plus

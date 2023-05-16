@@ -1,9 +1,9 @@
-# REYSSH ⚡
+# jjinternet ⚡
 
-# @REYSSH
+# @jjinternet
 
 *PROJETO EM BETA🍷🗿
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Rafa4g/PR0-SSH/main/ssh-plus)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Jj-internert/JJ-NET-SSH/main/ssh-plus)
 
 ```
