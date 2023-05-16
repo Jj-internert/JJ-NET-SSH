@@ -23,9 +23,9 @@ fun_menu() {
     [[ "${message_from_id[$id]}" == "$id_admin" ]] && {
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>🚀PAINEL INTERNET ILIMITADA🚀</b>\n"
+        env_msg+="<b>  PAINEL INTERNET ILIMITADA</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
-        env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
+        env_msg+="</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
             --parse_mode html
@@ -39,9 +39,9 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     if [[ "$(grep -w "${message_from_username}" $ativos | grep -wc 'revenda')" != '0' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>🚀PAINEL INTERNET ILIMITADA🚀</b>\n"
+        env_msg+="<b>  PAINEL INTERNET ILIMITADA</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
-        env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
+        env_msg+="</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard2" \
             --parse_mode html
@@ -49,9 +49,9 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     elif [[ "$(grep -w "${message_from_username}" $ativos | grep -wc 'subrevenda')" != '0' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>🚀PAINEL INTERNET ILIMITADA🚀</b>\n"
+        env_msg+="<b>  PAINEL INTERNET ILIMITADA</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
-        env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
+        env_msg+="</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard3" \
             --parse_mode html
@@ -74,7 +74,7 @@ fun_ajuda() {
     if [[ "$id_chatuser" = "$id_admin" ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>🚀PAINEL INTERNET ILIMITADA🚀</b>\n"
+        env_msg+="<b>  PAINEL INTERNET ILIMITADA</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>Comandos Disponiveis</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Exibe menu\n"
@@ -110,7 +110,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     elif [[ "$(grep -w "$id_name" $ativos | awk '{print $NF}')" == 'revenda' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>🚀PAINEL INTERNET ILIMITADA🚀</b>\n"
+        env_msg+="<b>  PAINEL INTERNET ILIMITADA</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>Comandos Disponiveis</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Exibe menu\n"
@@ -136,7 +136,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     elif [[ "$(grep -w "$id_name" $ativos | awk '{print $NF}')" == 'subrevenda' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>🚀PAINEL INTERNET ILIMITADA🚀</b>\n"
+        env_msg+="<b>  PAINEL INTERNET ILIMITADA</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>Comandos Disponiveis</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Exibe menu\n"
