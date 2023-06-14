@@ -229,8 +229,8 @@ swap2=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $4'})")
 swap3=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $3'})")
 clear
 echo -e "\033[1;37m $system                          $date"| lolcat
-figlet ' REIDASSH-PRO ' | boxes -d stone -p a0v0 | lolcat
-echo -e "╔═══════════════════════════•⊱✦⊰•═══════════════════════════╗" | lolcat
+figlet ' JJ-NET-SSH ' | boxes -d stone -p a0v0 | lolcat
+echo -e  "╔═══════════════════════════•⊱✦⊰•═══════════════════════════╗" | lolcat
 echo -e "\033[0;36m           🚀SEJA BEM VINDO AO SEU PAINEL SSH-PRO🚀                \E[0m \033[1;31m"
 echo -e "╚═══════════════════════════•⊱✦⊰•═══════════════════════════╝" | lolcat
 echo -e "\033[0;36m  \033[1;32mSISTEMA           \033[1;31m  \033[1;32mMEMÓRIA RAM      \033[1;31m \033[1;32m PROCESSADOR      \033[1;31m"
@@ -350,8 +350,8 @@ swap2=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $4'})")
 swap3=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $3'})")
 clear
 echo -e "\033[1;37m $system                          $date"| lolcat
-figlet ' REIDASSH-PRO ' | boxes -d stone -p a0v0 | lolcat
-echo -e "╔═══════════════════════════•⊱✦⊰•═══════════════════════════╗" | lolcat
+figlet ' JJ-NET-SSH ' | boxes -d stone -p a0v0 | lolcat
+echo -e  "╔═══════════════════════════•⊱✦⊰•═══════════════════════════╗" | lolcat
 echo -e "\033[0;36m           🚀SEJA BEM VINDO AO SEU PAINEL SSH-PRO🚀                \E[0m \033[1;31m"
 echo -e "╚═══════════════════════════•⊱✦⊰•═══════════════════════════╝" | lolcat
 echo -e "\033[0;36m  \033[1;32mSISTEMA           \033[1;31m  \033[1;32mMEMÓRIA RAM      \033[1;31m \033[1;32m PROCESSADOR      \033[1;31m"
